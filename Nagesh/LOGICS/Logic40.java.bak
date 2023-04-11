@@ -1,0 +1,13 @@
+class Logic40
+{
+ static int a=5;
+  public static void main (String []args)
+  {
+   goo(a+2+5);
+  }
+   static void goo(int x)
+   {
+    x=x+5;
+    System.out,println(x);
+    }
+}

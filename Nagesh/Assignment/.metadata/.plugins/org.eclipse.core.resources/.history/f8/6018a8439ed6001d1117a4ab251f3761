@@ -1,0 +1,22 @@
+package upcast;
+
+abstract class Demo
+{
+ abstract void add();
+ abstract void sub();
+}
+abstract class Sample extends Demo
+{
+ void add()
+ {
+	System.out.println("Hi"); 
+ }
+}
+public class upcast {
+
+	public static void main(String[] args) 
+	{
+			
+	}
+
+}

@@ -1,0 +1,17 @@
+class Decimal
+{
+ public static void main (String []args)
+  {
+  int a=10;
+  int b=20;
+  int x=a+b;
+  System.out.println("The value of "+"10+20"+" is "+x);
+  System.out.println(b/a);
+  System.out.println(a+b+x);
+  System.out.println((a*b)+x);
+  System.out.println(a+"*1="+(a*1));
+  System.out.println((a*b)+x);
+  System.out.println((a*b)+x);
+  System.out.println((a*b)+x);
+  }
+}

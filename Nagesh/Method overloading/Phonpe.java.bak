@@ -1,0 +1,28 @@
+class Phonpe
+{
+  int transaction(int kiran)
+ {
+  return kiran;
+ }
+ static void transaction(String basava)
+ {
+  System.out.println("Biradar fees paid "+basava);
+ }
+ static void transaction(int basava,double chetan)
+ {
+  System.out.println("basava & chetan total fees paid "+(basava+chetan));
+ }
+ static void transaction(double chetan,int basava)
+ {
+  System.out.println("Hemant & Biradar paid tatal fees"+(chetan+basava));
+ }
+ public static void main(String [] agrs)
+ {
+	 int x=new Phonepe.transaction(1900);
+  System.out.println("Biradar fees paid for kiran"+x);
+  transaction(1900);
+  transaction("45800");
+  transaction(34000,45800.55);
+  transaction(45800.85,34000);
+ }	
+}

@@ -1,0 +1,27 @@
+class Phonepe
+{
+  int trans(int kiran)
+ {
+  return kiran;
+ }
+ static void trans(String basava)
+ {
+  System.out.println("Biradar fees paid "+basava);
+ }
+ static void trans(int basava,double chetan)
+ {
+  System.out.println("basava & chetan total fees paid "+(basava+chetan));
+ }
+ static void trans(double chetan,int basava)
+ {
+  System.out.println("Hemant & Biradar paid tatal fees"+(chetan+basava));
+ }
+ public static void main(String [] agrs)
+ {
+	 int x=new Phonepe().transaction(1900);
+  System.out.println("Biradar fees paid for kiran"+x);
+  trans("45800");
+  trans(34000,45800.55);
+  trans(45800.85,34000);
+ }	
+}

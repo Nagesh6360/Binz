@@ -1,0 +1,7 @@
+class Logic136
+{
+ void static public main(String []args)
+ {
+  System.out.println("hii");
+ }
+}

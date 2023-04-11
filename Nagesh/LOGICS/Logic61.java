@@ -1,0 +1,30 @@
+class Logic61
+{
+	public static void main(String[] args) 
+	{
+		log1();
+		log3();
+	}	
+	static void log1()
+	{
+	 String name="xyz@gamil.com";
+	 System.out.println(name);
+	 log2();
+	}
+	static void log2()
+	{
+	 int password=123456;
+	 System.out.println(password);
+	 log4();
+	}
+	static void log3()
+	{
+	 String name="abc@gmai.com";
+	 System.out.println(name);
+	}
+	static void log4()
+	{
+	 int password=9876543;
+	 System.out.println(password);
+	}
+}

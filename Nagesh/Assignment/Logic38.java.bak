@@ -1,0 +1,20 @@
+class Logic38
+{
+public static void main (String []args)
+   {
+   System.out.println("****The Main Starts*****");
+   mul();
+   }
+ static void add1()
+ {
+ int a=5;
+ add();
+ }
+  static void sub()
+  {
+   int a=5;
+   a=a*8;
+   System.out.println(a);
+   }
+   
+}

@@ -1,0 +1,12 @@
+class Cloth
+{
+ static String colour="Black";
+ static String Size="XL";
+ static int cost=3000;
+  public static void main (String []args)
+  {
+   System.out.println("Employee name is "+Name);
+   System.out.println("Employee id is "+id);
+   System.out.println("Employee Salary is "+Salary);
+  }
+}

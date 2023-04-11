@@ -1,0 +1,26 @@
+class Jspider
+{
+ static void fees(int biradar)
+ {
+  System.out.println("Biradar fees paid "+biradar);
+ }
+ static void fees(String hemant)
+ {
+  System.out.println("Biradar fees paid "+hemant);
+ }
+ static void fees(int biradar,String hemant)
+ {
+  System.out.println("Biradar & hemant total fees paid "+biradar+"\t"+hemant);
+ }
+ static void fees(int hemant,int biradar)
+ {
+  System.out.println("Hemant & Biradar paid tatal fees"+(hemant+biradar));
+ }
+ public static void main(String [] agrs)
+ {
+  fees(34000);
+  fees("45800");
+  fees(34000,"45800");
+  fees(45800,34000);
+ }	
+}

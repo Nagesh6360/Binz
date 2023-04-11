@@ -1,0 +1,18 @@
+class Logic112
+{
+ static int a=20;
+ static void add1(int a1)
+ {
+	 int x=(a+a1)*a1;
+  System.out.println(x);
+ }
+ public static void main (String []args)
+ {
+  add1(10);
+ }
+ static void add2(int b)
+	{
+  b=a+a;
+  add1(b);s
+ }
+}

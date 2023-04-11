@@ -1,0 +1,17 @@
+class Logic103
+{
+ static int total_marks=300;
+ static void finalResult(int j,int m,int s)
+ {
+   int obtained_Marks=j+m+c;
+   double per=(obtained_Marks*100)/total_marks;
+   System.out.println(per);
+  }
+ public static void main (String []args)
+ {
+  int java=36;
+  int maths=36;
+  int science=36;
+  finalResult(java,maths,science);
+ }
+}

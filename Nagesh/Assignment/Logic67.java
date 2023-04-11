@@ -1,0 +1,31 @@
+class Logic67
+{
+ static void add (int a,int b,int c)
+ {
+  int d=a+b+c;
+  System.out.println(d);
+  }
+  public static void main (String []args)
+  {
+   add(10,5,6);
+   int x=10;
+   int y=10;
+   int z=x*y;
+   System.out.println(x);
+   System.out.println(y);
+   System.out.println(z);
+   foo(10,5,6);
+  }
+  static void zen(int p,int o,double r)
+  {
+   double p1=p*r+2;
+   System.out.println(p1);
+  }
+  static void foo(int e,int f,int g)
+  {
+   e=e+2;
+   g=e+f+g;
+   System.out.println(g);
+   zen(10,5,5.31);
+  }
+}

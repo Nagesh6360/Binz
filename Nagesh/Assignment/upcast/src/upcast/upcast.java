@@ -1,0 +1,31 @@
+package upcast;
+
+abstract class Demo
+{
+ abstract void add();
+ abstract void sub();
+}
+abstract class Sample extends Demo
+{
+ void add()
+ {
+	System.out.println("Hi"); 
+ }
+}
+class Test extends Sample
+{
+ void sub()
+ {
+	System.out.println("Hello"); 
+ }
+}
+public class upcast {
+
+	public static void main(String[] args) 
+	{
+		Test T=new Test();
+	   T.add();
+	   T.sub();
+	}
+
+}

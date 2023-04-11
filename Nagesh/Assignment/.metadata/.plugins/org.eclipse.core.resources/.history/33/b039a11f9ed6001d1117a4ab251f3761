@@ -1,0 +1,19 @@
+package upcast;
+
+abstract class Demo
+{
+ void add();
+ void sub();
+}
+abstract class Sample extends Demo
+{
+ void 	
+}
+public class upcast {
+
+	public static void main(String[] args) 
+	{
+			
+	}
+
+}

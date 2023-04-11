@@ -1,0 +1,11 @@
+class Logic42
+{
+ static void goo()
+ {
+  System.out.println(a+50);
+ }
+  public static void main (String []args)
+	{
+	  goo();
+	}
+}

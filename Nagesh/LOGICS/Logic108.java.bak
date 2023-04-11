@@ -1,0 +1,22 @@
+class Logic108
+{
+ static int x=5;
+ static void poo(int x)
+ {
+  System.out.println(x+x+62);
+ }
+ public static void main (String []args)
+ {
+  koo(x*5);
+ }
+ static void koo(int y)
+	{
+  y=x+12;
+  goo(y);
+ }
+ static void goo(int z)
+	{
+ z=x+y;
+ System.out.println(z);
+ }
+}

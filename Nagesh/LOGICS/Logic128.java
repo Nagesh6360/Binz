@@ -1,0 +1,12 @@
+class Logic128
+{
+ static int x=90;
+ void disp()
+	{
+  System.out.println(x);
+ }
+ public static void main (String args[])
+ {
+  new Logic128().disp();
+ }
+}

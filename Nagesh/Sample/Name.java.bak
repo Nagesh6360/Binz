@@ -1,0 +1,7 @@
+class Name
+{
+ publc static void main (String [ ] args)
+   {
+    System.out.println("Nagesh Naik****");
+   }
+}

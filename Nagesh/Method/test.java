@@ -1,0 +1,18 @@
+class sample
+{
+ void area()
+ {
+ int a=20;
+ int b=25;
+ int res=a+b;
+ System.out.println(res);
+ }
+}
+class test
+{
+ public static void main (String []args)
+ {
+  sample c=new sample();
+  int z=c.area();
+  }
+}

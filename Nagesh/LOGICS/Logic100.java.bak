@@ -1,0 +1,20 @@
+class Logic100
+{
+  public static void main (String []args)
+ {
+  int a=5;
+  int b=10;
+  int h=8;
+  if ((a+b+h!=23) && a<10)
+  {
+	  double area=(0.5)*(a+b)*h;
+	  double area2=(1/2.0)*b*h;
+	  System.out.println(area);
+	  System.out.println(area2);
+  }else
+	 {
+   System.out.println(25+a+h);
+   System.out.println("this answer is wrong");
+  }
+ }
+}

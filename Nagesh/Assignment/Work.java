@@ -1,0 +1,17 @@
+class Work
+{
+ static int wipro (String Employee)
+ {
+  int work=salary();
+  return work;
+ }
+  static int salary()
+  {
+   return 85000;
+  }
+  public static void main (String []args)
+  {
+   int x=wipro ("Employeer");
+   System.out.println(x);
+  }
+}

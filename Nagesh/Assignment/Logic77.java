@@ -1,0 +1,13 @@
+class Logic77
+{
+  public static void main (String []args)
+ {
+  int base=20;
+  int height=10;
+  if (base!=height)
+  {
+	  double area=0.5*base*height;
+	  System.out.println(area);
+  }
+ }
+}

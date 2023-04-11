@@ -1,0 +1,9 @@
+class Logic29
+{
+  public static void main (String []args)
+   {
+    int a=2;
+    int x=a*a*a;
+    System.out.println("The cube of "+a+" is "+x);
+   }
+}

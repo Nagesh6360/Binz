@@ -1,0 +1,17 @@
+package upcast;
+public class Downcast2
+{
+
+	public static void main(String[] args) 
+	{int count=0;
+	int sum=0;
+	 for (int i = 1; i<=10; i++) {
+	 count++;
+	 sum=sum+i;
+	 if (i/2==0) {
+		 System.out.println("Sum of even nuber is"+sum);
+	}
+	 }System.out.println(count);
+	 System.out.println(sum);
+    }	
+}

@@ -1,0 +1,13 @@
+class Logic54
+{
+ static void Name()
+ {
+  String a="Hello";
+  String b="java";
+  System.out.println("Print"+" "+a+" "+b);
+ }
+  public static void main (String []args)
+  {
+   Name();
+  } 
+}

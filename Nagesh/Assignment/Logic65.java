@@ -1,0 +1,28 @@
+class Logic65
+{
+ static int a=3;
+ public static void main (String []args)
+ {
+  lil(10);
+ }
+ static void goo(float x)
+ {
+  System.out.println(x+10.5);
+ }
+ static void add(float a)
+ {
+  float x=20.5f;
+  System.out.println(20+x);
+  goo(x);
+ }
+ static void foo(float y)
+ {
+  add(y);
+ }
+ static void lil(int y)
+ {
+  double x=10.56;
+  System.out.println(10+x+y);
+  foo(y);
+ }
+}

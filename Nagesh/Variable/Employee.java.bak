@@ -1,0 +1,16 @@
+class Employee
+{
+ static String Name="Nagesh Naik";
+ static String id="SG14051";
+ static int Salary=30000;
+ static char Grade='A';
+ static String Department="CTS";
+  public static void main (String []args)
+  {
+   System.out.println("Home name is "+Name);
+   System.out.println("Home colour is "+colour);
+   System.out.println("Home total cost is "+cost);
+   System.out.println("Home Bedroom is "+Bedroom);
+   System.out.println("Home Area is "+Area);
+  }
+}
